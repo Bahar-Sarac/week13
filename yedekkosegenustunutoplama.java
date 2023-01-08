@@ -1,16 +1,8 @@
 
 import java.util.Scanner;
 
-
-/**
- *
- * @author Bahar
- */
 public class yedekkosegenustunutoplama {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -22,7 +14,6 @@ public class yedekkosegenustunutoplama {
             for (int j = 0; j < N; j++) {
                 System.out.print(i + ". satır ve " + j + ".sütun: ");
                 A[i][j] = input.nextInt();
-
             }
 
         }
@@ -31,9 +22,7 @@ public class yedekkosegenustunutoplama {
             for (int j = 0; j < N; j++) {
                 if ((i + j) <(N-1)) {
                     t += A[i][j];
-
                 }
-
             }
         
         }
